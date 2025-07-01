@@ -20,7 +20,7 @@ const queryClient = new QueryClient();
 
 // Get the base path for GitHub Pages
 const getBasename = () => {
-  return import.meta.env.PROD ? '/estate-pro-finder-main' : '';
+  return import.meta.env.PROD ? '/estate-pro-complete' : '';
 };
 
 const App = () => (
